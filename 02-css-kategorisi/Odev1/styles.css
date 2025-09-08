@@ -1,0 +1,54 @@
+body{
+    margin: 0; /* Sayfa kenar boşluklarını kaldırma */
+    padding: 0; /* Sayfa iç boşluklarını kaldırma */
+    text-align: center; /* Metni ortala */
+}
+a:link{
+    color: black; /* Bağlantı rengi */
+    text-decoration: none; /* Alt çizgiyi kaldırma */
+}
+a:visited{
+    color: #A3C1AD; /* Ziyaret edilmiş bağlantı rengi */
+}
+a:hover{
+    color: #EDA35A; /* Üzerine gelindiğinde bağlantı rengi */
+    text-decoration: underline; /* Alt çizgi ekleme */
+}
+a:active{
+    color: #F28C0F; /* Tıklanmış bağlantı rengi */
+}
+
+li{
+    display: inline; /* Liste öğelerini yatay hizala */
+    padding-inline: 1em; /* Yatay boşluk */
+}
+h3 {
+    color:#EDA35A;
+}
+.Header {
+    font-family: sans-serif;
+    font-size: 4em; /* Yazı boyutu */
+    font-weight: bold; /* Kalın yazı */
+}
+.menu{
+    font-size: 0.6em; /* Menü yazı boyutu */;
+    padding: 0.2em; /* Menü iç boşluk */
+}
+ul.menu {
+    list-style-type: none; /* Madde işaretlerini kaldırma */
+}
+.ana-sayfa{
+    font-size: 0.6em;
+}
+.ana-sayfa li{
+    padding: 3em;
+}
+
+.egitimler-listesi a img{
+    width: 300px; /* Resim genişliği */
+    height: 300px; /* Yükseklik otomatik */
+    border-radius: 10px; /* Köşeleri yuvarlatma */
+    margin: 1em; /* Resim etrafında boşluk */
+    text-align:center; /* Resmi ortala */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
