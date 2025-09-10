@@ -51,4 +51,40 @@ ul.menu {
     margin: 1em; /* Resim etrafında boşluk */
     text-align:center; /* Resmi ortala */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    display: block;
+}
+.egitimler-listesi a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  .notlarim {
+    font-size: 2em; /* Notlarım yazı boyutu */
+    padding: 0.2em; /* Notlarım iç boşluk */
+  }
+
+  .ornekler {
+    font-size: 2em; /* Örnekler yazı boyutu */
+    padding: 0.2em; /* Örnekler iç boşluk */
+  }
+
+  .ornekler a img{
+    width: 500px; /* Resim genişliği */
+    border-radius: 10px; /* Köşeleri yuvarlatma */
+    margin: 1em; /* Resim etrafında boşluk */
+    text-align:center; /* Resmi ortala */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  }
+
+.hakkimizda {
+    font-size: 1.5em; /* Hakkımızda yazı boyutu */
+    padding: 0.2em; /* Hakkımızda iç boşluk */
+
+    margin: 3em; /* Hakkımızda etrafında boşluk */
+  }
+.hakkimizda hr{
+    width: 50%; /* Yatay çizgi genişliği */
+    border: 1px solid #EDA35A; /* Yatay çizgi stili */
+    margin: 1em auto; /* Yatay çizgi etrafında boşluk ve ortalama */
 }
